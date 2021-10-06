@@ -32,3 +32,13 @@ function btnUp() {
     }
     
 }
+
+
+d.addEventListener("href",e=>{
+
+    if (e.target.matches("#skills")) {
+
+        console.log("probando")
+        
+    }
+})

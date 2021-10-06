@@ -36,7 +36,7 @@ z-index: 999;
 .img-principal{
     width: 100%;
     height: auto;
-    min-height: 800px;
+    min-height: 700px;
     background-image: url(./img/fondo1.jpg);
     background-attachment:fixed;
     text-align: center;
@@ -44,6 +44,7 @@ z-index: 999;
     align-items: center;
     justify-content: center;
     color:white;
+    margin-bottom: 20px;
 }
 
 .img-text{
@@ -59,19 +60,35 @@ z-index: 999;
 .conocimientos1{
 
     min-height: 400px;
-    background-color: red;
+
 }
 .conocimientos2{
 
     min-height: 400px;
-    background-color: blue;
+
 
 }
 
 .portfolio{
-    height: 600px;
+    height: auto;
+    margin-bottom: 70px;
 }
+.portfolio-content{
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+
+
+}
+.portfolio-content div{
+
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: red;
+
+}
 #contacto{
     height: 220px;
     font-family: "Roboto", sans-serif;
@@ -108,7 +125,11 @@ z-index: 999;
 #contacto img {
     width: 64px;    
     height: auto;
+    position: relative;
     
+}
+#contacto img:hover {
+    opacity: 0.85;
 }
 
 #copyrigth{
