@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: rgb(241, 241, 241);
+
+}
+
+#btn-up{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+#btn-up img{
+    width: 72px;
+    height: auto;
+
+}
+
+.hidden{
+    display: none;
+}
+.navbar{
+
+position: sticky;
+top: 0;
+z-index: 999;
+
+}
+
+.img-principal{
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    background-image: url(./img/fondo1.jpg);
+    background-attachment:fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.img-text{
+    font-weight: bold;
+    font-weight: 900;
+    padding: 15px;
+  backdrop-filter: blur(20px);
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.conocimientos1{
+
+    min-height: 400px;
+    background-color: red;
+}
+.conocimientos2{
+
+    min-height: 400px;
+    background-color: blue;
+
+}
+
+.portfolio{
+    height: 600px;
+}
+
+#contacto{
+    height: 220px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 80px;
+}
+
+#contacto a{
+
+    padding: 10px;
+
+}
+
+#contacto h2{
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    padding: 5px;
+}
+#contacto h4{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.contenedor-img{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+#contacto img {
+    width: 64px;    
+    height: auto;
+    
+}
+
+#copyrigth{
+
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
